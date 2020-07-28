@@ -21,7 +21,8 @@ categories:
 *   安装shadowsocks
     *   `pip install shadowsocks`
 *   配置文件/etc/shadowsocks/config.json
-    *   单用户  ```json
+    *   单用户  
+    	```
         {  
 	        "server":"ip",  
 	        "server_port":8888,  
@@ -35,7 +36,7 @@ categories:
         }  ```
 
     *   多用户 
-        ```json
+        ```
         {  
 	        "server":"ip",  
 	        "local_address": "127.0.0.1",  
