@@ -23,30 +23,30 @@ categories:
 *   配置文件/etc/shadowsocks/config.json
     *   单用户  ```json
         {  
-        "server":"ip",  
-        "server_port":8888,  
-        "local_address": "127.0.0.1",  
-        "local_port":1080,  
-        "password":"123456789",  
-        "timeout":300,  
-        "method":"rc4-md5",  
-        "fast_open": true,  
-        "workers": 1  
+	        "server":"ip",  
+	        "server_port":8888,  
+	        "local_address": "127.0.0.1",  
+	        "local_port":1080,  
+	        "password":"123456789",  
+	        "timeout":300,  
+	        "method":"rc4-md5",  
+	        "fast_open": true,  
+	        "workers": 1  
         }  ```
 
     *   多用户 ```json
         {  
-        "server":"ip",  
-        "local_address": "127.0.0.1",  
-        "local_port":1080,  
-        "port_password":{  
-        "8888":"20181023",  
-        "9001":"mimawhat"  
-        },  
-        "timeout":300,  
-        "method":"rc4-md5",  
-        "fast_open": true,  
-        "workers": 2  
+	        "server":"ip",  
+	        "local_address": "127.0.0.1",  
+	        "local_port":1080,  
+	        "port_password":{  
+		        "8888":"20181023",  
+		        "9001":"mimawhat"  
+        	},  
+	        "timeout":300,  
+	        "method":"rc4-md5",  
+	        "fast_open": true,  
+	        "workers": 2  
         }  
         ```
 *   启动/停止shadowsocks

@@ -113,7 +113,7 @@ theme: matery
 deploy:
 - type: git
   repository:
-    github: https://github.com/zhangyk2015/zhangyk2015.github.io.git
+    github: git@github.com:zhangyk2015/zhangyk2015.github.io.git
     # coding: git@e.coding.net:godweiyang/godweiyang.git
   branch: master
 - type: baidu_url_submitter
