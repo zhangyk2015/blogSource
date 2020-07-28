@@ -14,6 +14,16 @@ categories:
 - blog相关
 ---
 
+##安装Node.js
+安装稳定版，否则不支持hexo deploy。
+
+**添加镜像源**：`npm config set registry https://registry.npm.taobao.org`
+
+##安装hexo
+`npm i hexo-cli -g`
+
+`npm i hexo-deployer-git` \#发布扩展
+
 ##Hexo常用命令
 npm install hexo -g \#安装Hexo
 npm update hexo -g \#升级
