@@ -34,7 +34,8 @@ categories:
 	        "workers": 1  
         }  ```
 
-    *   多用户 ```json
+    *   多用户 
+        ```json
         {  
 	        "server":"ip",  
 	        "local_address": "127.0.0.1",  
