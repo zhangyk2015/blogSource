@@ -240,12 +240,12 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: true
-  owner: godweiyang
-  repo: godweiyang.github.io
+  owner: zhangyk2015
+  repo: zhangyk2015.github.io
   oauth:
     clientId:   # gitalk配置，需要填写
     clientSecret:   # gitalk配置，需要填写
-  admin: godweiyang
+  admin: zhangyk2015
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
