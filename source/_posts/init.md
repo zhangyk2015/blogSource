@@ -1,6 +1,6 @@
 ---
 title: 博客初始化
-top: false
+top: true
 cover: false
 toc: true
 mathjax: true
