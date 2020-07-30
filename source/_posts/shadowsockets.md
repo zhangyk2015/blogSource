@@ -14,8 +14,6 @@ categories:
 - 服务器相关
 - 
 ---
-<div style="padding-bottom: 24px;">Shadowsocks搭建配置</div>
-</div>
 
 *   `apt install python python-pip python-m2crypto`
 *   安装shadowsocks
