@@ -16,7 +16,7 @@ categories:
 > 转载自[韦阳的博客](https://godweiyang.com/) ,用作写作模板，在此感谢他的辛苦付出。
 > 大家可以关注他的公众号【算法码上来】，每日算法干货马上就来！
 
-;![](/medias/contact.jpg)
+<!-- ![](/medias/contact.jpg) -->
 
 ## 前言
 
