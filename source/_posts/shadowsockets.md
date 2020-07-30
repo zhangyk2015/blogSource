@@ -8,7 +8,7 @@ date: 2020-07-28 16:35:39
 password: 
 summary: Shadowsocks在Ubuntu服务器的搭建配置
 tags: 
-- s科学上网
+- 科学上网
 - shadowsocks
 categories: 
 - 服务器相关
