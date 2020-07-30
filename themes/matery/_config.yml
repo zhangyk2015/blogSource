@@ -243,8 +243,8 @@ gitalk:
   owner: zhangyk2015
   repo: zhangyk2015.github.io
   oauth:
-    clientId:   # gitalk配置，需要填写
-    clientSecret:   # gitalk配置，需要填写
+    clientId: e22b832fcfeb5d4a0d94  # gitalk配置，需要填写
+    clientSecret: 35046779c9dfcd77452fd16da543188ee12fbabd  # gitalk配置，需要填写
   admin: zhangyk2015
 
 # the Gitment config，default disabled
