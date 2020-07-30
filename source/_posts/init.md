@@ -44,6 +44,14 @@ hexo clean \#清除缓存，若是网页正常情况下可以忽略这条命令
 ## 配置文件
 在blog根目录里的_config.yml文件称为**站点**配置文件。根目录里的themes文件夹，里面也有个_config.yml文件，这个称为**主题**配置文件
 
+## 评论
+
+### gitalk
+在主题的_config.yml文件中，设置gitalk的Client ID、Client Secret。由Github的OAuth Application提供，[链接](https://github.com/settings/applications/new)
+
+### valine
+详情见[Valine](https://valine.js.org/)
+
 ## 文件开头
 title: 文章标题
 catalog: 是否显示段落目录
