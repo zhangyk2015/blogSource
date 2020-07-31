@@ -25,7 +25,7 @@ a^2&=b^2+c^2\\
 a^3&=b^3+c^3\notag
 \end{align}
 ```
-
+![1](http://tva4.sinaimg.cn/large/005zOmEdly1gh9ywsbynkj308d03pa9v.jpg)
 除了用 align 环境之外,我们还可以用次环境 aligned 来更好地实现这种效果
 ```latex
 \begin{align}
@@ -35,7 +35,7 @@ a^2&=b^2+c^
 \end{aligned}
 \end{align}
 ```
-
+![2](http://tvax1.sinaimg.cn/large/005zOmEdly1gh9yx5zgvtj308b02z3ya.jpg)
 
 aligned 环境可以看成一个盒子,我们还可以给这个盒子添加定界符
 ```latex
@@ -45,7 +45,7 @@ aligned 环境可以看成一个盒子,我们还可以给这个盒子添加定�
 &a^2=b^2+c^
 \end{aligned}\right\end{align}
 ```
-
+![3](http://tva2.sinaimg.cn/large/005zOmEdly1gh9yxcqtfmj308503ga9u.jpg)
 指定不同块按等号对齐,同时每个区块一个编号,这时用 split 次环境
 ```latex
 \begin{align}
@@ -60,7 +60,7 @@ a^2&=b^2+c^
 \end{split}
 \end{align}
 ```
-
+![4](http://tva4.sinaimg.cn/large/005zOmEdly1gh9yxietpej308c07imx0.jpg)
 一行两个公式两个编号,这种情况自然需要 minipage 环境支持了.
 ```latex
 \begin{minipage}{0.5\textwidth}
@@ -74,7 +74,7 @@ a^3=b^3+c^
 \end{equation}
 \end{minipage}
 ```
-
+![5](http://tva2.sinaimg.cn/large/005zOmEdly1gh9yxsmri7j30go01dmwz.jpg)
 给带定界符的方程组的每一行都编号,这种情况 **amsmath** 包无法实现,我们可以用
 **cases** 包的 **numcases** 环境
 ```latex
@@ -84,7 +84,7 @@ a^3=b^3+c^
 0,&$x\notin\mathbb Q$
 \end{numcases}.
 ```
-
+![6](http://tva3.sinaimg.cn/large/005zOmEdly1gh9yxyy21xj308603fwea.jpg)
 
 不过上述 **numcases** 环境的效果是不尽如人意的,更好的效果是用 **empheq** 包,它可
 以给 **amsmath** 包提供的数学环境添加各种定界符.
@@ -95,4 +95,4 @@ a^3=b^3+c^
 &a^2=b^2+c^2&&a=b
 \end{empheq}
 ```
-
+![7](http://tvax1.sinaimg.cn/large/005zOmEdly1gh9yy4ido6j308b02ddfn.jpg)
